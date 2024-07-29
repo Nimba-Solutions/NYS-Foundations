@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Working_in_a_licensedregistered_program__c</fullName>
+    <description>If I am currently working in (or the administrator of) a licensed/registered program, I attest that</description>
+    <externalId>false</externalId>
+    <label>Working in a licensed/registered program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>My program has been in compliance with all regulatory standards for the last two years (compliance history may be requested)</fullName>
+                <default>false</default>
+                <label>My program has been in compliance with all regulatory standards for the last two years (compliance history may be requested)</label>
+            </value>
+            <value>
+                <fullName>My program has not been in compliance (compliance history may be requested) with OCFS regulations and I will explain below, N/A</fullName>
+                <default>false</default>
+                <label>My program has not been in compliance (compliance history may be requested) with OCFS regulations and I will explain below, N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

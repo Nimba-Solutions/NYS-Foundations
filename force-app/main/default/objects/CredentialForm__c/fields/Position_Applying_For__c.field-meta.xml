@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Position_Applying_For__c</fullName>
+    <description>Position Applying For:</description>
+    <externalId>false</externalId>
+    <label>Position Applying For:</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SAC Advisor</fullName>
+                <default>false</default>
+                <label>SAC Advisor</label>
+            </value>
+            <value>
+                <fullName>SAC Endorser</fullName>
+                <default>false</default>
+                <label>SAC Endorser</label>
+            </value>
+            <value>
+                <fullName>SAC Instructor</fullName>
+                <default>false</default>
+                <label>SAC Instructor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

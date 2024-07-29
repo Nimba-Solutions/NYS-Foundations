@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_roleconnection_to_afterschool__c</fullName>
+    <description>What is your current role and how does it connect to the afterschool, summer and expanded learning field?</description>
+    <externalId>false</externalId>
+    <label>Current role/connection to afterschool?</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

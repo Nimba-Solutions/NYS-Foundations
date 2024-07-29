@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Direct_CareAdv_Professional_Renewal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Direct Care Or Advanced Professional Renewal</description>
+    <externalId>false</externalId>
+    <label>Direct Care/Adv Professional Renewal</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

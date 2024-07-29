@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <description>Role (select one that best applies):</description>
+    <externalId>false</externalId>
+    <label>Role:</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Youth Participant</fullName>
+                <default>false</default>
+                <label>Youth Participant</label>
+            </value>
+            <value>
+                <fullName>Community School Coordinator/Director</fullName>
+                <default>false</default>
+                <label>Community School Coordinator/Director</label>
+            </value>
+            <value>
+                <fullName>Community School Manager</fullName>
+                <default>false</default>
+                <label>Community School Manager</label>
+            </value>
+            <value>
+                <fullName>Principal/School Leader</fullName>
+                <default>false</default>
+                <label>Principal/School Leader</label>
+            </value>
+            <value>
+                <fullName>Teacher</fullName>
+                <default>false</default>
+                <label>Teacher</label>
+            </value>
+            <value>
+                <fullName>Superintendent</fullName>
+                <default>false</default>
+                <label>Superintendent</label>
+            </value>
+            <value>
+                <fullName>District Staff</fullName>
+                <default>false</default>
+                <label>District Staff</label>
+            </value>
+            <value>
+                <fullName>University Staff</fullName>
+                <default>false</default>
+                <label>University Staff</label>
+            </value>
+            <value>
+                <fullName>Community-Based Organization Partner</fullName>
+                <default>false</default>
+                <label>Community-Based Organization Partner</label>
+            </value>
+            <value>
+                <fullName>Health Partner</fullName>
+                <default>false</default>
+                <label>Health Partner</label>
+            </value>
+            <value>
+                <fullName>Mental Health Partner</fullName>
+                <default>false</default>
+                <label>Mental Health Partner</label>
+            </value>
+            <value>
+                <fullName>Parent/Guardian</fullName>
+                <default>false</default>
+                <label>Parent/Guardian</label>
+            </value>
+            <value>
+                <fullName>School Social Worker</fullName>
+                <default>false</default>
+                <label>School Social Worker</label>
+            </value>
+            <value>
+                <fullName>SNUG Partner</fullName>
+                <default>false</default>
+                <label>SNUG Partner</label>
+            </value>
+            <value>
+                <fullName>Family Engagement Specialist</fullName>
+                <default>false</default>
+                <label>Family Engagement Specialist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

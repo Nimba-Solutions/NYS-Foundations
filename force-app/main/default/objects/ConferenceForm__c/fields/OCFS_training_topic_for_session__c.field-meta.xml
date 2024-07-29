@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCFS_training_topic_for_session__c</fullName>
+    <description>Please check which OCFS training topic areas your session will address based on NYS regulations (check all that apply):</description>
+    <externalId>false</externalId>
+    <label>OCFS training topic for session:</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(1) Child Development</fullName>
+                <default>false</default>
+                <label>(1) Child Development</label>
+            </value>
+            <value>
+                <fullName>(2) Nutrition &amp; Health Needs</fullName>
+                <default>false</default>
+                <label>(2) Nutrition &amp; Health Needs</label>
+            </value>
+            <value>
+                <fullName>(3) Program Development</fullName>
+                <default>false</default>
+                <label>(3) Program Development</label>
+            </value>
+            <value>
+                <fullName>(4) Safety &amp; Security</fullName>
+                <default>false</default>
+                <label>(4) Safety &amp; Security</label>
+            </value>
+            <value>
+                <fullName>(5) Business Management &amp; Records</fullName>
+                <default>false</default>
+                <label>(5) Business Management &amp; Records</label>
+            </value>
+            <value>
+                <fullName>(6) NYS Regulations &amp; Statutes</fullName>
+                <default>false</default>
+                <label>(6) NYS Regulations &amp; Statutes</label>
+            </value>
+            <value>
+                <fullName>(7) Child Abuse &amp; Maltreatment</fullName>
+                <default>false</default>
+                <label>(7) Child Abuse &amp; Maltreatment</label>
+            </value>
+            <value>
+                <fullName>(8) NYS Child Abuse Regulations &amp; Statutes</fullName>
+                <default>false</default>
+                <label>(8) NYS Child Abuse Regulations &amp; Statutes</label>
+            </value>
+            <value>
+                <fullName>(10) ACEs</fullName>
+                <default>false</default>
+                <label>(10) ACEs</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>I&apos;m unsure</fullName>
+                <default>false</default>
+                <label>I&apos;m unsure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

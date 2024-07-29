@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_workshop_will_be__c</fullName>
+    <description>My workshop will be:</description>
+    <externalId>false</externalId>
+    <label>My workshop will be:</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>30 minutes long (speed session)</fullName>
+                <default>false</default>
+                <label>30 minutes long (speed session)</label>
+            </value>
+            <value>
+                <fullName>90 minutes long</fullName>
+                <default>false</default>
+                <label>90 minutes long</label>
+            </value>
+            <value>
+                <fullName>I could make it work for either</fullName>
+                <default>false</default>
+                <label>I could make it work for either</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

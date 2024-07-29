@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PD_Form_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>PD Form Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Training Forms</fullName>
+                <default>false</default>
+                <label>General Training Forms</label>
+            </value>
+            <value>
+                <fullName>SLI</fullName>
+                <default>false</default>
+                <label>SLI</label>
+            </value>
+            <value>
+                <fullName>H&amp;S Training</fullName>
+                <default>false</default>
+                <label>H&amp;S Training</label>
+            </value>
+            <value>
+                <fullName>STEAM Trainings</fullName>
+                <default>false</default>
+                <label>STEAM Trainings</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

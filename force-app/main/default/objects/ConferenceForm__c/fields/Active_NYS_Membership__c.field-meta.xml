@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_NYS_Membership__c</fullName>
+    <description>Do you have an active membership in the Network for Youth Success?</description>
+    <externalId>false</externalId>
+    <label>Active NYS Membership?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Unsure</fullName>
+                <default>false</default>
+                <label>Unsure</label>
+            </value>
+            <value>
+                <fullName>I&apos;d like to join</fullName>
+                <default>false</default>
+                <label>I&apos;d like to join</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room_Arrangements__c</fullName>
+    <description>Select which room arrangements you could make work for your presentation (check all that apply):</description>
+    <externalId>false</externalId>
+    <label>Room Arrangements:</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Round Tables of 8 to 10</fullName>
+                <default>false</default>
+                <label>Round Tables of 8 to 10</label>
+            </value>
+            <value>
+                <fullName>Classroom Style (chair with table in front)</fullName>
+                <default>false</default>
+                <label>Classroom Style (chair with table in front)</label>
+            </value>
+            <value>
+                <fullName>Chairs Only (space in the room for movement)</fullName>
+                <default>false</default>
+                <label>Chairs Only (space in the room for movement)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

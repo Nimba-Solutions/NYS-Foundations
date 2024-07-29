@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Benefits_of_afterschool_for_youth__c</fullName>
+    <description>What would you say are the benefits of afterschool-for youth, families, and/or the community?</description>
+    <externalId>false</externalId>
+    <label>Benefits of afterschool-for youth?</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

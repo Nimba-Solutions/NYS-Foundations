@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Booth__c</fullName>
+    <description>Vendor Booth</description>
+    <externalId>false</externalId>
+    <label>Vendor Booth</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Four Day Vendor</fullName>
+                <default>false</default>
+                <label>Four Day Vendor</label>
+            </value>
+            <value>
+                <fullName>Wednesday/Thursday Vendor</fullName>
+                <default>false</default>
+                <label>Wednesday/Thursday Vendor</label>
+            </value>
+            <value>
+                <fullName>Wednesday/Thursday NFP Vendor</fullName>
+                <default>false</default>
+                <label>Wednesday/Thursday NFP Vendor</label>
+            </value>
+            <value>
+                <fullName>Friday Vendor</fullName>
+                <default>false</default>
+                <label>Friday Vendor</label>
+            </value>
+            <value>
+                <fullName>Friday NFP Vendor</fullName>
+                <default>false</default>
+                <label>Friday NFP Vendor</label>
+            </value>
+            <value>
+                <fullName>Saturday Vendor</fullName>
+                <default>false</default>
+                <label>Saturday Vendor</label>
+            </value>
+            <value>
+                <fullName>Saturday NFP Vendor</fullName>
+                <default>false</default>
+                <label>Saturday NFP Vendor</label>
+            </value>
+            <value>
+                <fullName>Friday &amp; Saturday Vendor</fullName>
+                <default>false</default>
+                <label>Friday &amp; Saturday Vendor</label>
+            </value>
+            <value>
+                <fullName>Friday &amp; Saturday NFP Vendor</fullName>
+                <default>false</default>
+                <label>Friday &amp; Saturday NFP Vendor</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
