@@ -1,0 +1,28 @@
+minimum_cumulusci_version: '3.78.0'
+project:
+    name: NYS-Foundations
+    package:
+        name: NYS-Foundations
+        api_version: '55.0'
+    git:
+        default_branch: 'main'
+        prefix_feature: 'feature/'
+        prefix_beta: 'beta/'
+        prefix_release: 'release/'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/NYS-Foundations/tests
+            options:
+                outputdir: robot/NYS-Foundations/results
+
+    robot_testdoc:
+        options:
+            path: robot/NYS-Foundations/tests
+            output: robot/NYS-Foundations/doc/NYS-Foundations_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
