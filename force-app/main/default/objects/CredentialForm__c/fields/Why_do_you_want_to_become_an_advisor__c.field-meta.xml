@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_do_you_want_to_become_an_advisor__c</fullName>
+    <description>If you are applying to be an advisor, why do you want to become an advisor? (if applying for another position, just list N/A)</description>
+    <externalId>false</externalId>
+    <label>Why do you want to become an advisor?</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

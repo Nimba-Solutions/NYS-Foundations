@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Policies__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Payment Policy: Payments can be made by EIP voucher (email to Erin), mailing a check, or by credit card. Payment must be made PRIOR to setting up an endorsement visit. The $1000 assessment fee is non-refundable. The $1000 assessment fee must be used within the year it is issued from 1/1-12/31. Should your assessment visit be cancelled or postponed due to insufficient paperwork or recordings, lack of payment, candidate tardiness, no shows, incorrect address, or not being ready, you will be responsible for paying for a second visit. Should you need to reschedule due to COVID you should notify your endorser and Erin immediately. We will do our best to reschedule in a reasonable time frame. Candidates are responsible for paying EIP back for visits cancelled or rescheduled by the candidate (other than a COVID related issue), visits not scheduled within the timeframe, or deferrals. By submitting your request for visit form , you are agreeing to the terms listed. I have read and agree:</description>
+    <externalId>false</externalId>
+    <label>Payment Policies</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

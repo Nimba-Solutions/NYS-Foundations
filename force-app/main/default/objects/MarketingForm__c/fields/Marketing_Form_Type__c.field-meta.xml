@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Form_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Marketing Form Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SAC Spotlight</fullName>
+                <default>false</default>
+                <label>SAC Spotlight</label>
+            </value>
+            <value>
+                <fullName>Program Spotlight</fullName>
+                <default>false</default>
+                <label>Program Spotlight</label>
+            </value>
+            <value>
+                <fullName>DEI Spotlight</fullName>
+                <default>false</default>
+                <label>DEI Spotlight</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

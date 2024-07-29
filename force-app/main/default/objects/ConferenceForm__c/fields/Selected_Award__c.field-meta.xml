@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Selected_Award__c</fullName>
+    <description>Select the Award (Choose ONLY 1 - Those submitting more than one will be disqualified.)</description>
+    <externalId>false</externalId>
+    <label>Selected Award</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>The Network for Youth Success QUALITY LEADERSHIP AWARD</fullName>
+                <default>false</default>
+                <label>The Network for Youth Success QUALITY LEADERSHIP AWARD</label>
+            </value>
+            <value>
+                <fullName>The Network for Youth Success EXEMPLARY AWARD OF PROFESSIONALISM</fullName>
+                <default>false</default>
+                <label>The Network for Youth Success EXEMPLARY AWARD OF PROFESSIONALISM</label>
+            </value>
+            <value>
+                <fullName>The Network for Youth Success PROGRAM AWARD OF EXCELLENCE AND INNOVATION</fullName>
+                <default>false</default>
+                <label>The Network for Youth Success PROGRAM AWARD OF EXCELLENCE AND INNOVATION</label>
+            </value>
+            <value>
+                <fullName>The Network for Youth Success CHAMPION AWARD</fullName>
+                <default>false</default>
+                <label>The Network for Youth Success CHAMPION AWARD</label>
+            </value>
+            <value>
+                <fullName>The Network for Youth Success REGIONAL NETWORK LEADER AWARD</fullName>
+                <default>false</default>
+                <label>The Network for Youth Success REGIONAL NETWORK LEADER AWARD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

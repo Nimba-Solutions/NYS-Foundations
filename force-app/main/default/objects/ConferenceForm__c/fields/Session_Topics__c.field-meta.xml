@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Session_Topics__c</fullName>
+    <description>Session Topic(s): (check all that apply)</description>
+    <externalId>false</externalId>
+    <label>Session Topic(s):</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Community Schools Essentials</fullName>
+                <default>false</default>
+                <label>Community Schools Essentials</label>
+            </value>
+            <value>
+                <fullName>MTSS / PBIS</fullName>
+                <default>false</default>
+                <label>MTSS / PBIS</label>
+            </value>
+            <value>
+                <fullName>Equity &amp; Resilience</fullName>
+                <default>false</default>
+                <label>Equity &amp; Resilience</label>
+            </value>
+            <value>
+                <fullName>Restorative Practices</fullName>
+                <default>false</default>
+                <label>Restorative Practices</label>
+            </value>
+            <value>
+                <fullName>Positive Behavioral Interventions and Supports</fullName>
+                <default>false</default>
+                <label>Positive Behavioral Interventions and Supports</label>
+            </value>
+            <value>
+                <fullName>Justice, Equity, Diversity, &amp; Inclusion (JEDI)</fullName>
+                <default>false</default>
+                <label>Justice, Equity, Diversity, &amp; Inclusion (JEDI)</label>
+            </value>
+            <value>
+                <fullName>Physical Activities/Team Building</fullName>
+                <default>false</default>
+                <label>Physical Activities/Team Building</label>
+            </value>
+            <value>
+                <fullName>Social &amp; Emotional Learning</fullName>
+                <default>false</default>
+                <label>Social &amp; Emotional Learning</label>
+            </value>
+            <value>
+                <fullName>STEM/STEAM</fullName>
+                <default>false</default>
+                <label>STEM/STEAM</label>
+            </value>
+            <value>
+                <fullName>Guiding Children&apos;s Behaviors</fullName>
+                <default>false</default>
+                <label>Guiding Children&apos;s Behaviors</label>
+            </value>
+            <value>
+                <fullName>Teen Programing</fullName>
+                <default>false</default>
+                <label>Teen Programing</label>
+            </value>
+            <value>
+                <fullName>Advocacy</fullName>
+                <default>false</default>
+                <label>Advocacy</label>
+            </value>
+            <value>
+                <fullName>Program Sustainability</fullName>
+                <default>false</default>
+                <label>Program Sustainability</label>
+            </value>
+            <value>
+                <fullName>Program Quality Improvement</fullName>
+                <default>false</default>
+                <label>Program Quality Improvement</label>
+            </value>
+            <value>
+                <fullName>Leadership Development for Professionals</fullName>
+                <default>false</default>
+                <label>Leadership Development for Professionals</label>
+            </value>
+            <value>
+                <fullName>Family Engagement</fullName>
+                <default>false</default>
+                <label>Family Engagement</label>
+            </value>
+            <value>
+                <fullName>The Arts</fullName>
+                <default>false</default>
+                <label>The Arts</label>
+            </value>
+            <value>
+                <fullName>Culturally Responsive Programming and Practices</fullName>
+                <default>false</default>
+                <label>Culturally Responsive Programming and Practices</label>
+            </value>
+            <value>
+                <fullName>21st C. Skills</fullName>
+                <default>false</default>
+                <label>21st C. Skills</label>
+            </value>
+            <value>
+                <fullName>Process of Registering as a SACC Program</fullName>
+                <default>false</default>
+                <label>Process of Registering as a SACC Program</label>
+            </value>
+            <value>
+                <fullName>Staff Motivation and Supervision</fullName>
+                <default>false</default>
+                <label>Staff Motivation and Supervision</label>
+            </value>
+            <value>
+                <fullName>Staff Retention</fullName>
+                <default>false</default>
+                <label>Staff Retention</label>
+            </value>
+            <value>
+                <fullName>Other (please describe below)</fullName>
+                <default>false</default>
+                <label>Other (please describe below)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

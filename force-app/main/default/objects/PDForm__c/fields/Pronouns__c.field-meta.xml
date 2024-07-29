@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pronouns__c</fullName>
+    <description>Pronouns</description>
+    <externalId>false</externalId>
+    <label>Pronouns</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>She/Her</fullName>
+                <default>false</default>
+                <label>She/Her</label>
+            </value>
+            <value>
+                <fullName>He/Him</fullName>
+                <default>false</default>
+                <label>He/Him</label>
+            </value>
+            <value>
+                <fullName>They/Them</fullName>
+                <default>false</default>
+                <label>They/Them</label>
+            </value>
+            <value>
+                <fullName>Another/not listed</fullName>
+                <default>false</default>
+                <label>Another/not listed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

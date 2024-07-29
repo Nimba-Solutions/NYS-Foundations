@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Session_Description__c</fullName>
+    <description>Session Description - In 100 words (or less), please provide a short description of your session. This description, or a shortened version of it, will be used in our conference brochure. (What content will you cover? What will participant&apos;s get out of the session?)</description>
+    <externalId>false</externalId>
+    <label>Session Description</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

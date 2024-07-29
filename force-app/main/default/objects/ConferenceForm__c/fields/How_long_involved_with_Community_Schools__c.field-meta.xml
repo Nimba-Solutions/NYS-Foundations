@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_long_involved_with_Community_Schools__c</fullName>
+    <description>How long have you been involved with Community Schools?</description>
+    <externalId>false</externalId>
+    <label>How long involved with Community Schools</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Just getting started</fullName>
+                <default>false</default>
+                <label>Just getting started</label>
+            </value>
+            <value>
+                <fullName>1-3 years</fullName>
+                <default>false</default>
+                <label>1-3 years</label>
+            </value>
+            <value>
+                <fullName>4-6 years</fullName>
+                <default>false</default>
+                <label>4-6 years</label>
+            </value>
+            <value>
+                <fullName>7-10 years</fullName>
+                <default>false</default>
+                <label>7-10 years</label>
+            </value>
+            <value>
+                <fullName>Over 10 years</fullName>
+                <default>false</default>
+                <label>Over 10 years</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
