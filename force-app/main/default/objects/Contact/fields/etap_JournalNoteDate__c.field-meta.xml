@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>etap_JournalNoteDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the date of the journal note from e-tapestry. Notes will be stored in the description of the contact</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the date of the journal note from e-tapestry. Notes will be stored in the description of the contact</inlineHelpText>
+    <label>etap_Journal Note Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

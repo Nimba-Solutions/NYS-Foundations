@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccreditationEndorsorRenewalDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If this is filled in, it indicates that the person is currently an endorser but will losing endorsing privileges if this date lapses!</description>
+    <externalId>false</externalId>
+    <label>Accreditation Endorsor Renewal Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

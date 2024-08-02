@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>etap_EntityRefId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is an external id that comes from blackbaud etapestry system. This id comes from the entity object and is related to the entity ref id</description>
+    <externalId>true</externalId>
+    <inlineHelpText>This is an external id that comes from blackbaud etapestry system. This id comes from the entity object and is related to the entity ref id</inlineHelpText>
+    <label>etap_Entity Ref Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
