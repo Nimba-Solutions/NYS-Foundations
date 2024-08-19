@@ -1,18 +1,28 @@
 # Using these workflows
 
 ## Initial Setup
+1. Navigate to Your Repository > Settings > Secrets and Actions > Actions
+2. Create or Update your `DEV_HUB_AUTH_URL` Repository Secret with your Dev Hub's `sfdxAuthUrl` ([How do I obtain an `sfdxAuthUrl`?](https://github.com/Nimba-Solutions/.github/wiki/Obtain-an-SFDX-Auth-URL))
+3. [OPTIONAL] Update `SANDBOX_ORG_AUTH_URL` with your UAT Sandbox `sfdxAuthUrl`
+4. [OPTIONAL] Update `PROD_ORG_AUTH_URL` with your Production `sfdxAuthUrl`
 
-Follow the provided [`Initial Setup` instructions](https://github.com/Nimba-Solutions/NYS-Foundations/edit/main/README.md) to configure the bootstrapped CICD for this project.
+## Releases
 
-### Manual Actions
+### [Recommended] Release this project using the Built-in CICD Actions
 
-#### Promote the Latest Beta Package
-1. Navigate to Your Repository > Actions > Beta - Promote (Unlocked).
+#### [Automatic] Generate Feature Test Packages & Beta Packages
+1. [Contribute to this Project](https://github.com/Nimba-Solutions/NYS-Foundations/blob/main/README.md#development)
+2. Confirm that the built-in GitHub Actions are running when Tasks are submitted for testing:
+   -  `Test Feature (Unlocked)` should run when a `feature/**` Pull Request is opened, or subsequent commits are made.
+   -  `Beta - Create (Unlocked)` should run when any Pull Request is made against the `main` branch.
+
+#### [Manual] Promote the Latest Beta Package
+1. Navigate to Your Repository > Actions > `Beta - Promote (Unlocked)`.
 2. Click `Run Workflow`.
 3. Confirm.
 
-#### Install the Latest Beta Package
-1. Navigate to Your Repository > Actions > Package - Install (Unlocked).
+#### [Manual] Install the Latest Promoted Package
+1. Navigate to Your Repository > Actions > `Package - Install (Unlocked)`.
 2. Click `Run Workflow`.
 3. Select `Sandbox` or `Production`.
 4. Confirm.
