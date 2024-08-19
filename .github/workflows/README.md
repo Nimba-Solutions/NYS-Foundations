@@ -27,7 +27,7 @@
 3. Select `Sandbox` or `Production`.
 4. Confirm.
 
-Note: Depending on the configuration of your GitHub Organization, you may need to specify some or all of the additional permissions for these workflows to run successfully:
+Note: Depending on the configuration of your GitHub Organization, you may need to specify some or all of the additional `GITHUB_TOKEN` permissions for these workflows to run successfully:
 
 ```yml
 permissions:
