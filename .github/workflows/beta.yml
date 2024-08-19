@@ -1,0 +1,25 @@
+name: Upload Beta Release
+on:
+  pull_request:
+    branches:
+      - "main"
+    paths:
+      - 'force-app/**' # Only generate a new package if the package contents have been changed.
+jobs:
+  upload-beta:
+    uses: nimba-actions/standard-workflows/.github/workflows/beta-unlocked.yml@main
+    secrets:
+      dev-hub-auth-url: ${{ secrets.DEV_HUB_AUTH_URL }}
+    with:
+      cumulusci-version: "3.78.0"
+      sfdx-version: "7.209.6"
+      org-name: "dev"
+      debug: true
+  install-beta:
+    needs: upload-beta
+    uses: nimba-actions/standard-workflows/.github/workflows/install-beta.yml@main
+    secrets:
+      dev-hub-auth-url: ${{ secrets.DEV_HUB_AUTH_URL }}
+    with:
+      cumulusci-version: "3.78.0"
+      sfdx-version: "7.209.6"
