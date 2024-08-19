@@ -6,7 +6,7 @@
 3. [OPTIONAL] Update `SANDBOX_ORG_AUTH_URL` with your UAT Sandbox `sfdxAuthUrl`
 4. [OPTIONAL] Update `PROD_ORG_AUTH_URL` with your Production `sfdxAuthUrl`
 
-## Development
+## Releases
 ### Automated Actions
 1. Navigate to your project in nimba.dev
 2. Create / Go To a Task record.
