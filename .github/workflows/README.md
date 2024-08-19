@@ -1,23 +1,8 @@
 # Using these workflows
 
 ## Initial Setup
-1. Navigate to Your Repository > Settings > Secrets and Actions > Actions
-2. Create or Update your `DEV_HUB_AUTH_URL` Repository Secret with your Dev Hub's `sfdxAuthUrl` ([How do I obtain an `sfdxAuthUrl`?](https://github.com/Nimba-Solutions/.github/wiki/Obtain-an-SFDX-Auth-URL))
-3. [OPTIONAL] Update `SANDBOX_ORG_AUTH_URL` with your UAT Sandbox `sfdxAuthUrl`
-4. [OPTIONAL] Update `PROD_ORG_AUTH_URL` with your Production `sfdxAuthUrl`
 
-## Releases
-### Automated Actions
-1. Navigate to your project in nimba.dev
-2. Create / Go To a Task record.
-3. In the `Developer` card, click "Assign" and select yourself.
-4. Click `Create Org` (NOT `Create Scratch Org`).
-5. Do some work & retrieve your changes through nimba.dev.
-6. When you're ready, click `Submit Task for Testing` in nimba.dev.
-7. Click `View Pull Request`
-8. Confirm the `Feature - Test (Unlocked)` job is processing.
-   - If the PR target is `main`, the `Beta - Create (Unlocked)` job should also be processing. 
-9. Upon success, merge the pull request.
+Follow the [`Initial Setup` instructions [described in the `Development` section of the Main README](https://github.com/Nimba-Solutions/NYS-Foundations/edit/main/README.md).](https://github.com/Nimba-Solutions/NYS-Foundations/blob/main/.github/workflows/README.md#initial-setup) to configure the bootstrapped CICD for this project.
 
 ### Manual Actions
 
