@@ -2,7 +2,7 @@
 
 ## Initial Setup
 
-Follow the [`Initial Setup` instructions [described in the `Development` section of the Main README](https://github.com/Nimba-Solutions/NYS-Foundations/edit/main/README.md).](https://github.com/Nimba-Solutions/NYS-Foundations/blob/main/.github/workflows/README.md#initial-setup) to configure the bootstrapped CICD for this project.
+Follow the provided [`Initial Setup` instructions](https://github.com/Nimba-Solutions/NYS-Foundations/edit/main/README.md)] to configure the bootstrapped CICD for this project.
 
 ### Manual Actions
 
