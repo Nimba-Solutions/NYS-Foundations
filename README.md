@@ -33,7 +33,7 @@ Follow the [`Initial Setup` instructions](https://github.com/Nimba-Solutions/NYS
 
 ### [Recommended] Release this project using the Built-in CICD Actions
 
-Follow the [`Initial Setup` instructions](https://github.com/Nimba-Solutions/NYS-Foundations/blob/main/.github/workflows/README.md#initial-setup) to configure the bootstrapped CICD for this project.
+Follow the provided [`Releases` instructions](https://github.com/Nimba-Solutions/NYS-Foundations/blob/main/.github/workflows/README.md#releases).
 
 ### [Advanced] Release this project using your CLI
 
