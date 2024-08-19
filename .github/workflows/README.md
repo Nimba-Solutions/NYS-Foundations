@@ -11,7 +11,7 @@
 ### [Recommended] Release this project using the Built-in CICD Actions
 
 #### [Automatic] Generate Feature Test Packages & Beta Packages
-1. [Contribute to this Project](https://github.com/Nimba-Solutions/NYS-Foundations/blob/main/README.md#development) normally.
+1. [Contribute to this Project normally.](https://github.com/Nimba-Solutions/NYS-Foundations/blob/main/README.md#development)
 2. Confirm that the built-in GitHub Actions are running when Tasks are submitted for testing:
    -  `Test Feature (Unlocked)` should run when a `feature/**` Pull Request is opened, or subsequent commits are made.
    -  `Beta - Create (Unlocked)` should run when any Pull Request is made against the `main` branch.
