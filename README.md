@@ -2,13 +2,13 @@
 
 ## Getting Started
 
-- [X] Follow the [`Initial Setup` instructions](https://github.com/Nimba-Solutions/NYS-Foundations/blob/main/.github/workflows/README.md#initial-setup) to configure the bootstrapped CICD for this project.
+- [X] Follow the [`Initial Setup` instructions](.github/workflows/README.md#initial-setup) to configure the built-in CICD for this project.
 
 ## Development
 
 ### [Recommended] Contribute to this project in your browser. 
 
-1. [Navigate to the NYS-Foundations project in nimba.dev](https://www.nimba.dev/projects/NYS-Foundations)
+1. Navigate to this project in nimba.dev
 2. Create / Go To a Task record.
 3. In the `Developer` card, click `Assign` and select yourself.
 4. Click `Create Org` (NOT `Create Scratch Org`)
@@ -33,7 +33,7 @@
 
 ### [Recommended] Release this project using the Built-in CICD Actions
 
-Follow the provided [`Releases` instructions](https://github.com/Nimba-Solutions/NYS-Foundations/blob/main/.github/workflows/README.md#releases).
+Follow the provided [`Releases` instructions](.github/workflows/README.md#releases).
 
 ### [Advanced] Release this project using your CLI
 
