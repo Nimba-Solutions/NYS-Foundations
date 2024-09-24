@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>I_hold_a_NYSAEYC_Training_etc__c</fullName>
+    <deprecated>false</deprecated>
     <description>I hold a NYSAEYC Training and Technical Assistance Professional (TTAP) Credential - Professional Development Specialist (PDS).</description>
     <externalId>false</externalId>
     <label>I hold a NYSAEYC Training etc.</label>

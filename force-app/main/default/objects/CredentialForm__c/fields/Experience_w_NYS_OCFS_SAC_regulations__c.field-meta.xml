@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Experience_w_NYS_OCFS_SAC_regulations__c</fullName>
+    <deprecated>false</deprecated>
     <description>Please describe your knowledge of and experience with NYS OCFS SAC regulations</description>
     <externalId>false</externalId>
     <label>Experience w/ NYS OCFS SAC regulations</label>

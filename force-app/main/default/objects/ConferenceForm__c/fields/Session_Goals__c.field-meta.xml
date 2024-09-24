@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Session_Goals__c</fullName>
+    <deprecated>false</deprecated>
     <description>Session Goals - Please provide at least one goal for your session to accomplish. (A general statement that describes the knowledge and/or skills participants will gain upon completing this session.)</description>
     <externalId>false</externalId>
     <label>Session Goals</label>

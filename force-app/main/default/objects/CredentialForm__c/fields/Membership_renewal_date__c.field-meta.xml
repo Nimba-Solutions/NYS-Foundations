@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Membership_renewal_date__c</fullName>
+    <deprecated>false</deprecated>
     <description>Membership renewal date</description>
     <externalId>false</externalId>
     <label>Membership renewal date</label>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Other_Session_Topic__c</fullName>
+    <deprecated>false</deprecated>
     <description>If you answered &quot;other&quot;, please describe your session topic here.</description>
     <externalId>false</externalId>
     <label>&apos;Other&apos; Session Topic</label>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Visit_Comments__c</fullName>
+    <deprecated>false</deprecated>
     <description>Please leave your comments here about your visit (was scheduling easy? how was your experience with the Network? Recommendations on the process? etc.)</description>
     <externalId>false</externalId>
     <label>Visit Comments:</label>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Nominees_Address__c</fullName>
+    <deprecated>false</deprecated>
     <description>Nominee&apos;s Address (Street, City, State, Zip Code)</description>
     <externalId>false</externalId>
     <label>Nominee&apos;s Address</label>

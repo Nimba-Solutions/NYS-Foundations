@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Experience_coaching_other_adults__c</fullName>
+    <deprecated>false</deprecated>
     <description>Please describe, including the time frames, your experience coaching other adults</description>
     <externalId>false</externalId>
     <label>Experience coaching other adults:</label>

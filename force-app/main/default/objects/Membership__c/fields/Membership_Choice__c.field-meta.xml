@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membership_Choice__c</fullName>
+    <externalId>false</externalId>
+    <label>Membership Choice</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 Year Individual</fullName>
+                <default>false</default>
+                <label>1 Year Individual</label>
+            </value>
+            <value>
+                <fullName>3 Year Individual</fullName>
+                <default>false</default>
+                <label>3 Year Individual</label>
+            </value>
+            <value>
+                <fullName>1 Year Organization (11-15 members)</fullName>
+                <default>false</default>
+                <label>1 Year Organization (11-15 members)</label>
+            </value>
+            <value>
+                <fullName>1 Year Organization (16-20 members)</fullName>
+                <default>false</default>
+                <label>1 Year Organization (16-20 members)</label>
+            </value>
+            <value>
+                <fullName>1 Year Organization (21-50 members)</fullName>
+                <default>false</default>
+                <label>1 Year Organization (21-50 members)</label>
+            </value>
+            <value>
+                <fullName>1 Year Organization (51-75 members)</fullName>
+                <default>false</default>
+                <label>1 Year Organization (51-75 members)</label>
+            </value>
+            <value>
+                <fullName>1 Year Organization (76-100 members)</fullName>
+                <default>false</default>
+                <label>1 Year Organization (76-100 members)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

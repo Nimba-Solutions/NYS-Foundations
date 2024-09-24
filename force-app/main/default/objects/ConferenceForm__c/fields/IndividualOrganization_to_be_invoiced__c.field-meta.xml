@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>IndividualOrganization_to_be_invoiced__c</fullName>
+    <deprecated>false</deprecated>
     <description>Name of Individual/Organization to be invoiced (if different than registrant)</description>
     <externalId>false</externalId>
     <label>Individual/Organization to be invoiced</label>

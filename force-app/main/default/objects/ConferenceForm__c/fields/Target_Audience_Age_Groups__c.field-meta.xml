@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Target_Audience_Age_Groups__c</fullName>
+    <deprecated>false</deprecated>
     <description>Age Group(s) Your Target Audience Works With (check all that apply):</description>
     <externalId>false</externalId>
     <label>Target Audience Age Group(s):</label>

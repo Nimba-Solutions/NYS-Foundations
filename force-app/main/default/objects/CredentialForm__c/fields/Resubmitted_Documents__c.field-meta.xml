@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resubmitted_Documents__c</fullName>
+    <externalId>false</externalId>
+    <label>Resubmitted Documents</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Current First Aid and Adult-Child CPR Certification</fullName>
+                <default>false</default>
+                <label>Current First Aid and Adult-Child CPR Certification</label>
+            </value>
+            <value>
+                <fullName>Child Abuse and Maltreatment Training</fullName>
+                <default>false</default>
+                <label>Child Abuse and Maltreatment Training</label>
+            </value>
+            <value>
+                <fullName>Proof of Work in Afterschool</fullName>
+                <default>false</default>
+                <label>Proof of Work in Afterschool</label>
+            </value>
+            <value>
+                <fullName>Proof of Registration in the Aspire Registry</fullName>
+                <default>false</default>
+                <label>Proof of Registration in the Aspire Registry</label>
+            </value>
+            <value>
+                <fullName>Letter of Recommendation</fullName>
+                <default>false</default>
+                <label>Letter of Recommendation</label>
+            </value>
+            <value>
+                <fullName>updated Resume</fullName>
+                <default>false</default>
+                <label>updated Resume</label>
+            </value>
+            <value>
+                <fullName>OCFS Training Cover Page</fullName>
+                <default>false</default>
+                <label>OCFS Training Cover Page</label>
+            </value>
+            <value>
+                <fullName>Training Certificates (you have attended)</fullName>
+                <default>false</default>
+                <label>Training Certificates (you have attended)</label>
+            </value>
+            <value>
+                <fullName>Three year Professional Development Plan (update of old goals)</fullName>
+                <default>false</default>
+                <label>Three year Professional Development Plan (update of old goals)</label>
+            </value>
+            <value>
+                <fullName>Commitment of Professionalism (new goals)</fullName>
+                <default>false</default>
+                <label>Commitment of Professionalism (new goals)</label>
+            </value>
+            <value>
+                <fullName>Contributions to the Field</fullName>
+                <default>false</default>
+                <label>Contributions to the Field</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

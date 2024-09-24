@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>OCFS_training_topic_for_session__c</fullName>
+    <deprecated>false</deprecated>
     <description>Please check which OCFS training topic areas your session will address based on NYS regulations (check all that apply):</description>
     <externalId>false</externalId>
     <label>OCFS training topic for session:</label>

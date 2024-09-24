@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Assigned_room_arrangement_comments__c</fullName>
+    <deprecated>false</deprecated>
     <description>If you are unable to present with your assigned room arrangement and would like us to reach out to you, please comment below.</description>
     <externalId>false</externalId>
     <label>Assigned room arrangement comments:</label>

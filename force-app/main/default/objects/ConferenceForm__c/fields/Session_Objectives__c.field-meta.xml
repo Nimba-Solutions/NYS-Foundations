@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Session_Objectives__c</fullName>
+    <deprecated>false</deprecated>
     <description>Session Objectives - Please provide 1-3 session objectives in the space provided. In other words, participants will accomplish the session goal(s) by…</description>
     <externalId>false</externalId>
     <label>Session Objectives</label>

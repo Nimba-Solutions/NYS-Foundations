@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Languages_spoken_by_children_in_program__c</fullName>
+    <deprecated>false</deprecated>
     <description>Languages spoken by the children in program:</description>
     <externalId>false</externalId>
     <label>Languages spoken by children in program:</label>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Dietary_restrictions__c</fullName>
+    <deprecated>false</deprecated>
     <description>Do you have any dietary restrictions? (check all that apply):</description>
     <externalId>false</externalId>
     <label>Dietary restrictions?</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>
-    <type>Picklist</type>
+    <type>MultiselectPicklist</type>
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
@@ -59,4 +60,5 @@
             </value>
         </valueSetDefinition>
     </valueSet>
+    <visibleLines>9</visibleLines>
 </CustomField>

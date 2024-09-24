@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Advisors_Email__c</fullName>
+    <deprecated>false</deprecated>
     <description>Advisor&apos;s Email</description>
     <externalId>false</externalId>
     <label>Advisor&apos;s Email</label>

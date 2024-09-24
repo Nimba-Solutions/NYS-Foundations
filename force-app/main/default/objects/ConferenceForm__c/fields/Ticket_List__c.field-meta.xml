@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ticket_List__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Two_Day_Community_Schools_Ticket__c, &quot;Two Day Community Schools Resilience &amp; Equity Conference Wednesday &amp; Thursday (April 30 - May 1 2025)&quot;, &quot;&quot;) &amp;
+IF(Site_Visit_Wednesday_2025__c, 
+    IF(LEN(
+        &quot;Two Day Community Schools Resilience &amp; Equity Conference Wednesday &amp; Thursday (April 30 - May 1 2025)&quot;) &gt; 0, &quot;, &quot;, &quot;&quot;) &amp; 
+    &quot;Site Visit Wednesday morning (April 30 2025)&quot;, &quot;&quot;) &amp;
+IF(VIP_Dinner_2025__c, 
+    IF(LEN(
+        &quot;Two Day Community Schools Resilience &amp; Equity Conference Wednesday &amp; Thursday (April 30 - May 1 2025)&quot; &amp;
+        &quot;Site Visit Wednesday morning (April 30 2025)&quot;) &gt; 0, &quot;, &quot;, &quot;&quot;) &amp; 
+    &quot;Igniting Community Schools Dinner 2025&quot;, &quot;&quot;) &amp;
+IF(X21st_CCLC_Friday_2025__c, 
+    IF(LEN(
+        &quot;Two Day Community Schools Resilience &amp; Equity Conference Wednesday &amp; Thursday (April 30 - May 1 2025)&quot; &amp;
+        &quot;Site Visit Wednesday morning (April 30 2025)&quot; &amp;
+        &quot;Igniting Community Schools Dinner 2025&quot;) &gt; 0, &quot;, &quot;, &quot;&quot;) &amp; 
+    &quot;21st CCLC Friday (May 2 2025)&quot;, &quot;&quot;) &amp;
+IF(Two_Day_School_s_Out_2025__c, 
+    IF(LEN(
+        &quot;Two Day Community Schools Resilience &amp; Equity Conference Wednesday &amp; Thursday (April 30 - May 1 2025)&quot; &amp;
+        &quot;Site Visit Wednesday morning (April 30 2025)&quot; &amp;
+        &quot;Igniting Community Schools Dinner 2025&quot; &amp;
+        &quot;21st CCLC Friday (May 2 2025)&quot;) &gt; 0, &quot;, &quot;, &quot;&quot;) &amp; 
+    &quot;Two Day School&apos;s Out Make it Count! Friday/Saturday (May 2 2025 - May 3 2025)&quot;, &quot;&quot;) &amp;
+IF(School_s_Out_Friday_2025__c, 
+    IF(LEN(
+        &quot;Two Day Community Schools Resilience &amp; Equity Conference Wednesday &amp; Thursday (April 30 - May 1 2025)&quot; &amp;
+        &quot;Site Visit Wednesday morning (April 30 2025)&quot; &amp;
+        &quot;Igniting Community Schools Dinner 2025&quot; &amp;
+        &quot;21st CCLC Friday (May 2 2025)&quot; &amp;
+        &quot;Two Day School&apos;s Out Make it Count! Friday/Saturday (May 2 2025 - May 3 2025)&quot;) &gt; 0, &quot;, &quot;, &quot;&quot;) &amp; 
+    &quot;School&apos;s Out Make it Count! Friday (May 2 2025)&quot;, &quot;&quot;) &amp;
+IF(School_s_Out_Saturday_2025__c, 
+    IF(LEN(
+        &quot;Two Day Community Schools Resilience &amp; Equity Conference Wednesday &amp; Thursday (April 30 - May 1 2025)&quot; &amp;
+        &quot;Site Visit Wednesday morning (April 30 2025)&quot; &amp;
+        &quot;Igniting Community Schools Dinner 2025&quot; &amp;
+        &quot;21st CCLC Friday (May 2 2025)&quot; &amp;
+        &quot;Two Day School&apos;s Out Make it Count! Friday/Saturday (May 2 2025 - May 3 2025)&quot; &amp;
+        &quot;School&apos;s Out Make it Count! Friday (May 2 2025)&quot;) &gt; 0, &quot;, &quot;, &quot;&quot;) &amp; 
+    &quot;School&apos;s Out Make it Count! Saturday (May 3 2025)&quot;, &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Ticket List</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

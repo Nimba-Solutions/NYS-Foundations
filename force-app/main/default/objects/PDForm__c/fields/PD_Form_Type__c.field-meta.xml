@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PD_Form_Type__c</fullName>
+    <deprecated>false</deprecated>
     <externalId>false</externalId>
     <label>PD Form Type</label>
     <required>false</required>
@@ -17,11 +18,6 @@
                 <label>General Training Forms</label>
             </value>
             <value>
-                <fullName>SLI</fullName>
-                <default>false</default>
-                <label>SLI</label>
-            </value>
-            <value>
                 <fullName>H&amp;S Training</fullName>
                 <default>false</default>
                 <label>H&amp;S Training</label>
@@ -30,6 +26,31 @@
                 <fullName>STEAM Trainings</fullName>
                 <default>false</default>
                 <label>STEAM Trainings</label>
+            </value>
+            <value>
+                <fullName>Emotional Intelligence</fullName>
+                <default>false</default>
+                <label>Emotional Intelligence</label>
+            </value>
+            <value>
+                <fullName>Supervision of Children in School-Age Care</fullName>
+                <default>false</default>
+                <label>Supervision of Children in School-Age Care</label>
+            </value>
+            <value>
+                <fullName>Encouraging Positive Behaviors</fullName>
+                <default>false</default>
+                <label>Encouraging Positive Behaviors</label>
+            </value>
+            <value>
+                <fullName>Site Leader Institute</fullName>
+                <default>false</default>
+                <label>Site Leader Institute</label>
+            </value>
+            <value>
+                <fullName>Adult Learning (TTAP) Training</fullName>
+                <default>false</default>
+                <label>Adult Learning (TTAP) Training</label>
             </value>
         </valueSetDefinition>
     </valueSet>

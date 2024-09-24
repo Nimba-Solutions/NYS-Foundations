@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Active_NYS_Membership__c</fullName>
+    <deprecated>false</deprecated>
     <description>Do you have an active membership in the Network for Youth Success?</description>
     <externalId>false</externalId>
     <label>Active NYS Membership?</label>

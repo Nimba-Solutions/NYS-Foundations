@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>AdvisorEndorserInstructor_agreement__c</fullName>
     <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
     <description>I understand that advisors, endorsers, and instructors are selected based on the requirements above, recommendations, and capacity.</description>
     <externalId>false</externalId>
     <label>Advisor/Endorser/Instructor agreement</label>

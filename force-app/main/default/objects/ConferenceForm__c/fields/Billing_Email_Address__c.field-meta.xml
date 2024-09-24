@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Billing_Email_Address__c</fullName>
+    <deprecated>false</deprecated>
     <description>Billing Email Address (if different than registrant)</description>
     <externalId>false</externalId>
     <label>Billing Email Address</label>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Needed_AV_Equipment__c</fullName>
+    <deprecated>false</deprecated>
     <description>I will need the following A/V Equipment (check all that apply):</description>
     <externalId>false</externalId>
     <label>Needed A/V Equipment:</label>
@@ -26,6 +27,21 @@
                 <fullName>None</fullName>
                 <default>false</default>
                 <label>None</label>
+            </value>
+            <value>
+                <fullName>Microphone</fullName>
+                <default>false</default>
+                <label>Microphone</label>
+            </value>
+            <value>
+                <fullName>Speakers</fullName>
+                <default>false</default>
+                <label>Speakers</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
             </value>
         </valueSetDefinition>
     </valueSet>

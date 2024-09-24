@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Assessevaluate_participants__c</fullName>
+    <deprecated>false</deprecated>
     <description>How will you assess/evaluate participants? (check all that apply):</description>
     <externalId>false</externalId>
     <label>Assess/evaluate participants?</label>
@@ -36,6 +37,11 @@
                 <fullName>Assignment</fullName>
                 <default>false</default>
                 <label>Assignment</label>
+            </value>
+            <value>
+                <fullName>Other (describe)</fullName>
+                <default>false</default>
+                <label>Other (describe)</label>
             </value>
         </valueSetDefinition>
     </valueSet>

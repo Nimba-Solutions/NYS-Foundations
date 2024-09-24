@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Experience_as_responsible_for_growth__c</fullName>
+    <deprecated>false</deprecated>
     <description>Please describe, including time frames, your experience as someone responsible for the growth of another adult. (Must have one year.)</description>
     <externalId>false</externalId>
     <label>Experience as responsible for growth</label>

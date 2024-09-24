@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vending_Day_s__c</fullName>
+    <externalId>false</externalId>
+    <label>Vending Day(s)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Friday 5/2</fullName>
+                <default>false</default>
+                <label>Friday 5/2</label>
+            </value>
+            <value>
+                <fullName>Saturday 5/3</fullName>
+                <default>false</default>
+                <label>Saturday 5/3</label>
+            </value>
+            <value>
+                <fullName>Wednesday 4/30</fullName>
+                <default>false</default>
+                <label>Wednesday 4/30</label>
+            </value>
+            <value>
+                <fullName>Thursday 5/1</fullName>
+                <default>false</default>
+                <label>Thursday 5/1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

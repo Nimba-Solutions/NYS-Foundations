@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Availability_to_meet_with_your_mentor__c</fullName>
+    <deprecated>false</deprecated>
     <description>Please list your availability to meet with your mentor (days/time)</description>
     <externalId>false</externalId>
     <label>Availability to meet with your mentor</label>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>NamesContact_info_of_references__c</fullName>
+    <deprecated>false</deprecated>
     <description>Please provide the names and contact information (phone number and email address) of at least two individuals that can attest to your competence in the school-age child care field.</description>
     <externalId>false</externalId>
     <label>Names/Contact info of references</label>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Low_income_youth_served__c</fullName>
+    <deprecated>false</deprecated>
     <description>Number of low-income youth served at your site</description>
     <externalId>false</externalId>
     <label>Low-income youth served:</label>

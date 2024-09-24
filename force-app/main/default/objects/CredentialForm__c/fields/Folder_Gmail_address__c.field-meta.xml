@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Folder_Gmail_address__c</fullName>
+    <deprecated>false</deprecated>
     <description>Gmail Address we can use to set up your folder (Note: Work gmails don&apos;t always work)</description>
     <externalId>false</externalId>
     <label>Folder Gmail address:</label>

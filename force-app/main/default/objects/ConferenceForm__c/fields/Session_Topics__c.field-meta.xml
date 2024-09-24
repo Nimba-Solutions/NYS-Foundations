@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Session_Topics__c</fullName>
+    <deprecated>false</deprecated>
     <description>Session Topic(s): (check all that apply)</description>
     <externalId>false</externalId>
     <label>Session Topic(s):</label>
@@ -31,11 +32,6 @@
                 <fullName>Restorative Practices</fullName>
                 <default>false</default>
                 <label>Restorative Practices</label>
-            </value>
-            <value>
-                <fullName>Positive Behavioral Interventions and Supports</fullName>
-                <default>false</default>
-                <label>Positive Behavioral Interventions and Supports</label>
             </value>
             <value>
                 <fullName>Justice, Equity, Diversity, &amp; Inclusion (JEDI)</fullName>

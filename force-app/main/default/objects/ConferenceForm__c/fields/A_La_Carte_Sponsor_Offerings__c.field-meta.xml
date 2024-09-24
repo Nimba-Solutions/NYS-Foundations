@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>A_La_Carte_Sponsor_Offerings__c</fullName>
+    <deprecated>false</deprecated>
     <description>A La Carte Sponsor Offerings (check all that apply):</description>
     <externalId>false</externalId>
     <label>A La Carte Sponsor Offerings:</label>
